@@ -37,3 +37,7 @@ language[2]; //Third character = v
 console.log(language[3]); //Four character = a
 
 language[ language.length - 2]; //Matching lenght with acess character, return "p", in that case penultimate character
+
+//Or can i use .at(index) instead of length, .at(index) its use for acess character of string, although i can using index negative for acess end string
+let lang = 'DotNet';
+lang.at(1);
