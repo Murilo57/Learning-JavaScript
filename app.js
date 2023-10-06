@@ -43,3 +43,12 @@ let lang = 'DotNet';
 lang.at(1);
 
 //Metod substring, sintaxe and parameters:
+//someString.substring(indexStart, indexEnd)
+language.substring(1, 5); //'avaS'
+language.substring(3); //'aScript'
+
+//Concatenates String
+let firstName = 'Murilo';
+let LastName = ' Ferreira';
+
+console.log(firstName + LastName) // = 'Murilo Ferreira'
