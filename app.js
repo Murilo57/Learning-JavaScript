@@ -51,4 +51,17 @@ language.substring(3); //'aScript'
 let firstName = 'Murilo';
 let LastName = ' Ferreira';
 
-console.log(firstName + LastName) // = 'Murilo Ferreira'
+console.log(firstName + LastName); // = 'Murilo Ferreira'
+
+console.log(firstName += 'Ferreira'); // ='Murilo Ferreira'
+
+//String of model
+`Hello JavaScript!`;
+
+//String multiline with model 
+`Hello
+JavaScript`;
+
+//Interpolation of string
+`Welcome ${firstName} to 
+the world of ${language}`;
